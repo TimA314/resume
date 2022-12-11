@@ -4,13 +4,13 @@ import './Education.css';
 const Education = () => {  
   return (
     <div className="education">
-      <h2>Experience</h2>
+      <h2>Education</h2>
       <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-        <li>Item 5</li>
+        <li>
+          <a href='https://www.tuj.ac.jp/' target="_blank">
+            Temple University Japan Campus
+          </a>
+        </li>
       </ul>
     </div>
   );

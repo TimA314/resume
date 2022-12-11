@@ -1,0 +1,55 @@
+
+.contactme {
+    color: #cccccc;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 80%;
+  }
+  
+  .contactme h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  
+  .contactme ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contactme li {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+  
+  .contactme li a {  color: #cccccc;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .contactme li a:hover {
+    background-color: #00FF00;
+    color: #252525;
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 255, 0, 0.7);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(0, 255, 0, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(0, 255, 0, 0);
+    }
+  }

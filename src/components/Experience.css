@@ -28,7 +28,33 @@ margin: 0 0 10px 0;
 padding: 0;
 }
 
+
+.experience {
+    color: #cccccc;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 80%;
+  }
+  
+  .experience ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .experience li {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    padding: 0;
+  }
+
 .experience li:hover {
+    background-color: #00FF00;
+    color: #252525;
     animation-name: pulse;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;

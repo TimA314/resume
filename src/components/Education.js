@@ -1,9 +1,9 @@
 import React from 'react';
-import './Experience.css'; 
+import './Education.css'; 
 
-const Experience = () => {  
+const Education = () => {  
   return (
-    <div className="experience">
+    <div className="education">
       <h2>Experience</h2>
       <ul>
         <li>Item 1</li>
@@ -16,4 +16,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;

@@ -10,11 +10,11 @@ const ContactMe = () => {
       <ul>
         <li>
           <FontAwesomeIcon icon={faPhone} />
-          <a href="tel:555-555-5555">555-555-5555</a>
+          <a href="tel:555-555-5555"> 555-555-5555</a>
         </li>
         <li>
           <FontAwesomeIcon icon={faEnvelope} />
-          <a href="mailto:test@test.com">test@test.com</a>
+          <a href="mailto:test@test.com"> test@test.com</a>
         </li>
         <li>
           <a href="https://github.com/">GitHub</a>
@@ -22,7 +22,7 @@ const ContactMe = () => {
         <li>
           <a href="https://www.linkedin.com/">LinkedIn</a>
         </li>
-      </ul>
+      </ul> ContactMe
     </div>
   );
 };

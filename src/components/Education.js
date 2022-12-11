@@ -8,8 +8,9 @@ const Education = () => {
       <ul>
         <li>
           <a href='https://www.tuj.ac.jp/' target="_blank">
-            Temple University Japan Campus
+            Temple University Japan Campus, Tokyo, JP
           </a>
+          <p>Bachelor of Arts; Major in International Business; Minor in Economics</p>
         </li>
       </ul>
     </div>
